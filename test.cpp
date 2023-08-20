@@ -9,6 +9,6 @@ void print() {
 }
 
 int main() {
-  //TODO 
+  std::cout << f(1, 2) << "\n";
   return 0;
 }
