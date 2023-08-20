@@ -1,12 +1,14 @@
 #include <iostream>
 
-int func(int a, int b) {
+int f(int a, int b) {
   return a + b;
-} 
+}
+
+void print() {
+  std::cout << "yes\n";
+}
 
 int main() {
-  std::cout << "yes\n";
-  std::cout << func(1, 2) << "\n";
-  std::cout << "yes\n";
+  
   return 0;
 }
