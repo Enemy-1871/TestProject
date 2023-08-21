@@ -10,5 +10,6 @@ void print() {
 
 int main() {
   std::cout << f(1, 2) << "\n";
+  print();
   return 0;
 }
